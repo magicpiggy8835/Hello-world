@@ -7,7 +7,7 @@
     <script src="jquery-3.5.1.min.js"></script>
     <link rel="stylesheet" href="jquery-ui.min.css">
     <script src="jquery-ui.js"></script>
-    <title>俄羅斯方塊</title>
+    <title>Document</title>
 </head>
 <style>
     body{
@@ -19,7 +19,7 @@
         font: 100rem;
     }
     #back{
-        height: 14vh;
+        height: 10vh;
         width:20vw;
     }
     #start{
@@ -45,7 +45,8 @@
     <table style="margin:auto" id="table">
         <tr>
             <td><img src="start.jpg" onclick='$("#drawplace").show();$("#back").show();init();$("#table").hide();$("#dailog").dialog("close");$("#tyy_now").dialog("close");$("#text").dialog("close");' id="star" alt=""></td>
-            <td><img src="image.png" onclick='$("#tyy_now").dialog("open")' id="try" alt=""></td>
+            <!-- ;;jkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk -->
+            <td><img src="ddd.png" onclick='$("#tyy_now").dialog("open")' id="try" alt=""></td>
         </tr>
     </table>
     
@@ -53,7 +54,17 @@
     <canvas id="drawplace"></canvas>
     <img src="gameover.jpg" id="over" onclick="$('#drawplace').show();
     $('#table').hide();
-    $('#over').hide()();" alt="">
+    $('#over').hide();
+    $('#back').show()" alt="">
+    <!-- <table style="margin:auto">
+        <tr>
+            <td></td>
+            <td>
+                
+            </td>
+        </tr>
+    </table> -->
+    <!-- <img src="ddd.png" onclick='$("#tyy_now").dialog("open")' id="try" alt=""> -->
     <br><img src="back.jpg" id="back" onclick='$("#back").hide();$("#drawplace").hide();$("#table").show();' alt="">
     <div id="tyy_now">
         <button onclick='$("#dailog").dialog("open")'>難度</button>
